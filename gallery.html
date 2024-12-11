@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="موقع شخصي لمحمد صالح">
+    <meta name="author" content="محمد صالح">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>الموقع الشخصي</title>
+</head>
+
+<body>
+    <main>
+        <section id="header">
+            <div id="branding">
+                <h1><a href="index.html"><i class="fa fa-user-circle"></i>
+                        <div id="header-text">صفحة<span class="highlight">محمد صالح</span></div>
+                    </a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li class="current"><a href="gallery.html">معرض الأعمال</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section id="slider">
+            <div class="wrapper">
+                <div class="content">
+                    <img src="img/1.PNG">
+                </div>
+                <div class="content">
+                    <img src="img/2.PNG">
+                </div>
+                <div class="content">
+                    <img src="img/3.PNG">
+                </div>
+                <div class="content">
+                    <img src="img/4.PNG">
+                </div>
+            </div>
+            <div class="navLinks">
+                <ul>
+                    <li class="itemLinks" data-pos="0"></li>
+                    <li class="itemLinks" data-pos="1"></li>
+                    <li class="itemLinks" data-pos="2"></li>
+                    <li class="itemLinks" data-pos="3"></li>
+                </ul>
+            </div>
+        </section>
+        <section id="footer">
+            <p>الصفحة الشخصية لمحمد صالح &copy; <span id="currentYear"></span></p>
+        </section>
+    </main>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
